@@ -22,7 +22,9 @@ header{
         float: left;
         color: black;
         font-weight: bold;
-        text-shadow: 0 0 5px #333;
+        text-shadow: 0 0 5px aqua;
+        border: 7px solid black;
+        padding: 10px 10px;
 
     }
 
@@ -34,6 +36,7 @@ header{
     .barra li{
         list-style: none;
         display: inline-block;
+        text-shadow: 0 0 5px aqua;
     }
 
     .barra a{
