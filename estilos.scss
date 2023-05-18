@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
+$color1: wheat;
+$color2: white;
+$color3: aqua;
+$color4: black;
+
 body{
-    background-color: wheat;
+    background-color: $color1;
 }
 
 header{
     height: 100%;
     width: 100%;
-    color: white;
+    color: $color2;
     padding: 20px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,10 +24,10 @@ header{
         
     .logo{
         float: left;
-        color: black;
+        color: $color4;
         font-weight: bold;
-        text-shadow: 0 0 5px aqua;
-        border: 7px solid black;
+        text-shadow: 0 0 5px $color3;
+        border: 7px solid $color4;
         padding: 10px 10px;
     }
 
@@ -33,71 +38,71 @@ header{
     .barra li{
         list-style: none;
         display: inline-block;
-        text-shadow: 0 0 5px aqua;
+        text-shadow: 0 0 5px $color3;
     }
 
     .barra a{
-        color: black;
+        color: $color4;
         text-decoration: none;
     }
 
     .barra a:hover{
-        color: aqua;
+        color: $color3;
     }
 
     .nuestro{
-        color: black;
+        color: $color4;
         font-size: 40px;
         text-align: center
     }
         
     .barra1{
-        color: black;
+        color: $color4;
         font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 30px;
         padding: 30px;
         list-style: circle;
     }
-    
+
     .barra1 a{
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: black;
-        color: aqua;
-        border: 3px solid aqua;
+        background-color: $color4;
+        color: $color3;
+        border: 3px solid $color3;
         padding: 10px 10px;
     }
 
     .conservacion{
-        color: black;
+        color: $color4;
         font-size: 40px;
         text-align: center
     }
 
     .texto{
-        color: black;
+        color: $color4;
     }
 
     .texto a{
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: black;
-        color: aqua;
-        border: 3px solid aqua;
+        background-color: $color4;
+        color: $color3;
+        border: 3px solid $color3;
         padding: 10px 10px;
     }
 
     .formulario{
-        color: black;
+        color: $color4;
     }
 
     .formulario a{
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: black;
-        color: aqua;
-        border: 3px solid aqua;
+        background-color: $color4;
+        color: $color3;
+        border: 3px solid $color3;
         padding: 10px 10px;
     }
 }
@@ -113,7 +118,7 @@ header{
     }
 
     .item{
-        border: 3px solid black;
+        border: 3px solid $color4;
     }
 
     .item1{
@@ -160,10 +165,10 @@ header{
     
 
     .call{
-        color: white;
+        color: $color2;
         width: 20%;
-        background-color: black;
-        border: 3px solid wheat;
+        background-color: $color4;
+        border: 3px solid $color1;
         padding: 40px;
     }
 
@@ -180,7 +185,7 @@ header{
     footer{
         text-align: center;
         font-size: 30px;
-        background-color: wheat;
+        background-color: $color1;
         color: black;
         margin-top: 200px;
     
