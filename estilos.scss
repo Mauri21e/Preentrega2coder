@@ -13,9 +13,13 @@ body{
     background-color: $color1;
 }
 
-header{
+@mixin asd{
     height: 100%;
-    width: 100%;
+    width: 100%
+}
+
+header{
+    @include asd;
     color: $color2;
     padding: 20px;
     font-size: 25px;
@@ -186,7 +190,7 @@ header{
         text-align: center;
         font-size: 30px;
         background-color: $color1;
-        color: black;
+        color: $color4;
         margin-top: 200px;
     
 
