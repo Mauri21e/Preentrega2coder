@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 35px;
+        
+    .logo{
+        float: left;
+        color: black;
+        font-weight: bold;
+        text-shadow: 0 0 5px aqua;
+        border: 7px solid black;
+        padding: 10px 10px;
+    }
+
+    .barra{
+        float: right;
+    }
+
+    .barra li{
+        list-style: none;
+        display: inline-block;
+        text-shadow: 0 0 5px aqua;
+    }
+
+    .barra a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .barra a:hover{
+        color: aqua;
+    }
+
+    .nuestro{
+        color: black;
+        font-size: 40px;
+        text-align: center
+    }
+        
+    .barra1{
+        color: black;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 30px;
+        padding: 30px;
+        list-style: circle;
+    }
+    
+    .barra1 a{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: black;
+        color: aqua;
+        border: 3px solid aqua;
+        padding: 10px 10px;
+    }
+
+    .conservacion{
+        color: black;
+        font-size: 40px;
+        text-align: center
+    }
+
+    .texto{
+        color: black;
+    }
+
+    .texto a{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: black;
+        color: aqua;
+        border: 3px solid aqua;
+        padding: 10px 10px;
+    }
+
+    .formulario{
+        color: black;
+    }
+
+    .formulario a{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: black;
+        color: aqua;
+        border: 3px solid aqua;
+        padding: 10px 10px;
+    }
+}
+
+    .galeria{
+        width: 100%;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 200px);
+        padding: 20px;
+        grid-gap: 20px;
+    }
+
+    .item{
+        border: 3px solid black;
+    }
+
+    .item1{
+        background-image: url(imagenes/img1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .item2{
+        background-image: url(imagenes/img2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .item3{
+        background-image: url(imagenes/img3.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .item4{
+        background-image: url(imagenes/img4.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .item5{
+        background-image: url(imagenes/img5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .item6{
+        background-image: url(imagenes/img6.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    main{
+        height: 50vh;
+        width: 100%;
+        padding-top: 100px;
+    
+
+    .call{
+        color: white;
+        width: 20%;
+        background-color: black;
+        border: 3px solid wheat;
+        padding: 40px;
+    }
+
+    .call h1{
+        font-size: 30px;
+    }
+
+    .call p{
+
+        font-size: 20px;
+    }
+}
+
+    footer{
+        text-align: center;
+        font-size: 30px;
+        background-color: wheat;
+        color: black;
+        margin-top: 200px;
+    
+
+    .redes{
+        letter-spacing: 20px;
+        font-size: 50px;
+    }
+}
+
+    @media only screen and (min-width:368px){
+        .galeria{
+            grid-template-columns: 1fr 1fr;
+    
+        }
+    }
