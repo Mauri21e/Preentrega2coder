@@ -150,6 +150,8 @@ main .call {
   background-color: black;
   border: 3px solid wheat;
   padding: 40px;
+  animation-name: ab;
+  animation-duration: 7s;
 }
 main .call h1 {
   font-size: 30px;
@@ -158,6 +160,14 @@ main .call p {
   font-size: 20px;
 }
 
+@keyframes ab {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
 footer {
   text-align: center;
   font-size: 30px;

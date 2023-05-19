@@ -32,7 +32,7 @@ header{
         font-weight: bold;
         text-shadow: 0 0 5px $color3;
         border: 7px solid $color4;
-        padding: 10px 10px;
+        padding: 10px 10px;        
     }
 
     .barra{
@@ -174,6 +174,8 @@ header{
         background-color: $color4;
         border: 3px solid $color1;
         padding: 40px;
+        animation-name: ab;
+        animation-duration: 7s;
     }
 
     .call h1{
@@ -183,6 +185,16 @@ header{
     .call p{
 
         font-size: 20px;
+    }
+}
+
+@keyframes ab{
+    from{
+        color:$color4;
+    }
+
+    to{
+        color: $color2;
     }
 }
 
