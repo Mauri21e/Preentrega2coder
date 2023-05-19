@@ -148,7 +148,7 @@ main .call {
   color: white;
   width: 20%;
   background-color: black;
-  border: 3px solid wheat;
+  border: 3px solid black;
   padding: 40px;
   animation-name: ab;
   animation-duration: 7s;
